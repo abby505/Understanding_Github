@@ -65,6 +65,10 @@ int main() {
             default:
                 cout << "Invalid choice! Please try again.\n";
         }
+
+        cout<<endl<<"Enter (any) number to continue: "<<endl;
+        int a;
+        cin>>a;
     } while (choice != 5);
 
     return 0;
